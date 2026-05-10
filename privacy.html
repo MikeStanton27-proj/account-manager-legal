@@ -51,8 +51,9 @@
 
 <h2>2. 使用する権限と目的</h2>
 <ul>
-  <li><strong>カメラ権限</strong>：QRコードのスキャン時のみ使用（TOTP設定の取り込み・アカウント受信）。カメラ画像は端末内で処理されるのみで、外部送信は行いません。</li>
+  <li><strong>カメラ権限</strong>：TOTP（2段階認証）設定のためのQRコードスキャン時のみ使用。カメラ画像は端末内で処理されるのみで、外部送信は行いません。</li>
   <li><strong>生体認証権限</strong>：指紋・顔認証によるアプリのロック解除のみに使用。生体情報は端末のOSが管理し、本アプリが直接アクセスすることはありません。</li>
+  <li><strong>写真ライブラリ</strong>：アカウント用のカスタムアイコン画像を選択する場合のみ、システムの写真ピッカーを通じてユーザーが明示的に選んだ画像のみを読み込みます。アプリは写真ライブラリ全体への権限を要求しません。</li>
   <li><strong>インターネット通信</strong>：本アプリは要求しません。完全オフラインで動作します。</li>
   <li><strong>解析・テレメトリ・広告</strong>：一切組み込まれていません。</li>
   <li><strong>クラッシュレポート</strong>：自動送信は行いません。</li>
@@ -98,8 +99,9 @@
 
 <h2>2. Permissions and Their Purpose</h2>
 <ul>
-  <li><strong>Camera</strong>: used only when scanning a QR code (for TOTP setup or receiving an account share). Camera frames are processed on-device only; nothing is uploaded.</li>
+  <li><strong>Camera</strong>: used only when scanning a QR code for TOTP (two-factor authentication) setup. Camera frames are processed on-device only; nothing is uploaded.</li>
   <li><strong>Biometric</strong>: used only to unlock the App via fingerprint or face. Biometric data is managed by the OS; the App never reads it directly.</li>
+  <li><strong>Photo library</strong>: only when you choose a custom icon image, the system Photo Picker passes only the image you explicitly select to the App. The App does not request access to your full photo library.</li>
   <li><strong>Internet</strong>: not requested. The App works fully offline.</li>
   <li><strong>Analytics, telemetry, advertising</strong>: none.</li>
   <li><strong>Crash reporting</strong>: no automatic reporting.</li>
