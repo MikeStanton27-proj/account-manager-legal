@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy / プライバシーポリシー — Account Manager</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 24px;
+      line-height: 1.7;
+      color: #222;
+      background: #fafafa;
+    }
+    h1 { color: #4764FA; border-bottom: 2px solid #4764FA; padding-bottom: 8px; }
+    h2 { color: #333; margin-top: 32px; }
+    .updated { color: #666; font-size: 0.9em; }
+    ul { padding-left: 1.4em; }
+    li { margin: 4px 0; }
+    .section { margin-bottom: 48px; padding-bottom: 32px; border-bottom: 1px solid #ddd; }
+    nav { background: #f0f0f0; padding: 12px 16px; border-radius: 8px; margin-bottom: 32px; }
+    nav a { margin-right: 16px; color: #4764FA; text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-size: 0.92em; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#ja">日本語</a>
+  <a href="#en">English</a>
+  <a href="index.html">← Home</a>
+</nav>
+
+<!-- ===================== Japanese ===================== -->
+<section class="section" id="ja">
+
+<h1>プライバシーポリシー</h1>
+<p class="updated">最終更新日: 2026年5月10日</p>
+
+<p>アカウントマネージャー（以下「本アプリ」）は、<strong>Mike Stanton</strong>（以下「開発者」）が提供する個人用パスワード管理アプリです。本ポリシーは、本アプリが扱うデータの取り扱いについて説明します。</p>
+
+<h2>1. 収集する情報</h2>
+<p><strong>本アプリは、ユーザーから一切の個人情報を収集しません。</strong></p>
+<ul>
+  <li>ユーザーが入力したサービス名、ID、パスワード、メモ、URL、タグ、TOTPシークレット、アイコン画像、その他の項目は、すべて<strong>端末内のみ</strong>に AES-256 暗号化（SQLCipher）で保存されます。</li>
+  <li>これらのデータは外部サーバー、開発者を含む第三者へ一切送信されません。</li>
+</ul>
+
+<h2>2. 使用する権限と目的</h2>
+<ul>
+  <li><strong>カメラ権限</strong>：QRコードのスキャン時のみ使用（TOTP設定の取り込み・アカウント受信）。カメラ画像は端末内で処理されるのみで、外部送信は行いません。</li>
+  <li><strong>生体認証権限</strong>：指紋・顔認証によるアプリのロック解除のみに使用。生体情報は端末のOSが管理し、本アプリが直接アクセスすることはありません。</li>
+  <li><strong>インターネット通信</strong>：本アプリは要求しません。完全オフラインで動作します。</li>
+  <li><strong>解析・テレメトリ・広告</strong>：一切組み込まれていません。</li>
+  <li><strong>クラッシュレポート</strong>：自動送信は行いません。</li>
+</ul>
+
+<h2>3. バックアップファイルについて</h2>
+<p>「暗号化バックアップをエクスポート」機能を使うと、暗号化された <code>.acm</code> ファイルが生成されます。このファイルの送信先（クラウドストレージ、メール、他アプリへの共有等）はユーザーが完全にコントロールします。開発者はそのファイルにアクセスできません。</p>
+
+<h2>4. 子供のプライバシー</h2>
+<p>本アプリは13歳未満の子供を含む、いかなるユーザーからもデータを意図的に収集することはありません。</p>
+
+<h2>5. データの保持と削除</h2>
+<ul>
+  <li>すべてのデータは端末内に保存され、ユーザーが「全データを削除」機能を使うか、本アプリをアンインストールすることで完全に消去されます。</li>
+  <li>開発者側にはユーザーデータが存在しないため、開発者によるデータ削除のリクエスト対応は不要です。</li>
+</ul>
+
+<h2>6. 第三者ライブラリ</h2>
+<p>本アプリは、SQLCipher、cryptography、qr_flutter、image_picker、mobile_scanner等のオープンソースライブラリを使用しています。完全なリストとそれぞれのライセンスは、アプリ内「設定 > このアプリについて > オープンソースライセンス」から確認できます。これらのライブラリ自体もネットワーク通信を発生させません。</p>
+
+<h2>7. 本ポリシーの変更</h2>
+<p>本ポリシーは予告なく更新される場合があります。重要な変更がある場合、上記「最終更新日」を更新したうえで、このページに掲載します。</p>
+
+<h2>8. お問い合わせ</h2>
+<p>本ポリシーに関するご質問は <a href="mailto:mikestanton.contact@gmail.com">mikestanton.contact@gmail.com</a> までご連絡ください。</p>
+
+</section>
+
+<!-- ===================== English ===================== -->
+<section class="section" id="en" lang="en">
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: 2026-05-10</p>
+
+<p>Account Manager (the "App") is a personal password manager provided by <strong>Mike Stanton</strong> (the "Developer"). This policy explains how the App handles data.</p>
+
+<h2>1. Information We Collect</h2>
+<p><strong>The App does not collect any personal information from users.</strong></p>
+<ul>
+  <li>All entries you create — including service names, IDs, passwords, notes, URLs, tags, TOTP secrets, icon images, and other fields — are stored <strong>only on your device</strong>, encrypted with AES-256 via SQLCipher.</li>
+  <li>None of this data is transmitted to any external server or third party, including the Developer.</li>
+</ul>
+
+<h2>2. Permissions and Their Purpose</h2>
+<ul>
+  <li><strong>Camera</strong>: used only when scanning a QR code (for TOTP setup or receiving an account share). Camera frames are processed on-device only; nothing is uploaded.</li>
+  <li><strong>Biometric</strong>: used only to unlock the App via fingerprint or face. Biometric data is managed by the OS; the App never reads it directly.</li>
+  <li><strong>Internet</strong>: not requested. The App works fully offline.</li>
+  <li><strong>Analytics, telemetry, advertising</strong>: none.</li>
+  <li><strong>Crash reporting</strong>: no automatic reporting.</li>
+</ul>
+
+<h2>3. Backup Files</h2>
+<p>The "Export encrypted backup" feature produces an encrypted <code>.acm</code> file. Where this file is saved or shared (cloud storage, email, other apps, etc.) is entirely under your control. The Developer has no access to such files.</p>
+
+<h2>4. Children's Privacy</h2>
+<p>The App does not knowingly collect data from anyone, including children under 13.</p>
+
+<h2>5. Data Retention and Deletion</h2>
+<ul>
+  <li>All data lives on your device. It is fully erased when you use the "Delete all data" feature or uninstall the App.</li>
+  <li>Because the Developer does not hold any user data, no data deletion request to the Developer is necessary.</li>
+</ul>
+
+<h2>6. Third-Party Libraries</h2>
+<p>The App uses open source libraries (SQLCipher, cryptography, qr_flutter, image_picker, mobile_scanner, and others). A full list with their licenses is available in the App at <em>Settings &gt; About &gt; Open Source Licenses</em>. None of these libraries trigger network calls in this App.</p>
+
+<h2>7. Changes to This Policy</h2>
+<p>This policy may be updated. Material changes will be posted here with an updated "Last updated" date.</p>
+
+<h2>8. Contact</h2>
+<p>Questions about this policy can be sent to <a href="mailto:mikestanton.contact@gmail.com">mikestanton.contact@gmail.com</a>.</p>
+
+</section>
+
+</body>
+</html>
